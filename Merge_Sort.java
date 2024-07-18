@@ -1,11 +1,11 @@
 public class Merge_Sort {
-    static void merge_sort(int A[],0,int n)
+    static void merge_sort(int A[],int i,int n)
     {
         int left = 0;
         int right = n -1;
         if (left< right)
         {
-            mid = (left + right) /2;
+            int mid = (left + right) /2;
             merge_sort(A,left,mid);
             merge_sort(A,mid +1,right);
             merge(A,left,mid,right);
@@ -20,7 +20,7 @@ public class Merge_Sort {
         System.out.println();
     }
 
-    void merge(int arr[], int l, int m, int r)
+    static void merge(int arr[], int l, int m, int r)
     {
         
         int n1 = m - l + 1;
