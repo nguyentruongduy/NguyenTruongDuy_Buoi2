@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Binary_Search",
+            "request": "launch",
+            "mainClass": "Binary_Search",
+            "projectName": "NguyenTruongDuy_Buoi2_c4738fc2"
+        },
+        {
+            "type": "java",
             "name": "BigNumber_Multi",
             "request": "launch",
             "mainClass": "BigNumber_Multi",

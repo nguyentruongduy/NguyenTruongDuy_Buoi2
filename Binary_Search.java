@@ -25,7 +25,7 @@ public class Binary_Search {
         
         int A [] = {1,4,6,7,10,40,8,50,2,44};
         int n = A.length;
-        int key = 3;
+        int key = 10;
         int result = biany_Search(A,n,key);
 
         if (result == -1)
